@@ -1139,3 +1139,53 @@ button, input, select, textarea {
     flex: 0 0 32%;
   }
 }
+
+/* ---------- Banner Web ---------- */
+.banner-web {
+  padding: 0 20px 40px;
+}
+
+.banner-web-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, var(--color-primary) 0%, #0F2740 100%);
+  border-radius: var(--border-radius-card);
+  padding: 36px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.banner-web-text h3 {
+  color: var(--color-white);
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.banner-web-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .banner-web-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 40px 44px;
+  }
+
+  .banner-web-text p {
+    margin: 0;
+  }
+
+  .banner-web-inner .btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+}
