@@ -1,5 +1,5 @@
 # Rumbo Norte Real Estate — Proyecto
-
+ 
 ## Resumen
 Web inmobiliaria para **Rumbo Norte Real Estate**, inmobiliaria familiar en Alcorcón, Madrid.
 Sitio estático (HTML/CSS/JS vanilla) con backend Supabase para gestión de inmuebles.
