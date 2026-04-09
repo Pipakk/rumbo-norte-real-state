@@ -748,8 +748,9 @@ button, input, select, textarea {
 }
 
 .mapa-link {
-  display: inline-block;
-  margin-top: 8px;
+  display: block;
+  width: fit-content;
+  margin-top: 10px;
   padding: 6px 14px;
   background: var(--color-accent);
   color: var(--color-white) !important;
